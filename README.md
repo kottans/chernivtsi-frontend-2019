@@ -2,8 +2,8 @@
 
 # Kottans Chernivtsi Frontend Course 2019
 
-[![Telegram Chat][telegram-img]][telegram-url]
-[![YouTube][youtube-img]][youtube-url]
+<!-- [![YouTube][youtube-img]][youtube-url] -->
+
 [![Facebook Event][fb-img]][fb-url]
 [![Google Maps][maps-img]][location-url]
 
@@ -54,9 +54,6 @@ Rivnens'ka St, 16, Chernivtsi, 58000][location-url]
 [CC-BY-NC][cc-url] © ChernivtsiJS Team
 
 <!-- References -->
-
-<!-- [telegram-url]: https://t.me/joinchat/CMej8QsNdAVcJ98bOPnw8Q -->
-<!-- [telegram-img]: https://img.shields.io/badge/chat-telegram-32A2DB.svg?style=flat-square -->
 
 [fb-url]: https://www.facebook.com/events/524056337930021
 [fb-img]: https://img.shields.io/badge/event-facebook-3C5A96.svg?style=flat-square
