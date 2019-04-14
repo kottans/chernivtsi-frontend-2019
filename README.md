@@ -44,7 +44,7 @@ Rivnens'ka St, 16, Chernivtsi, 58000][location-url]
 
 <!--  -->
 
-\* — all lectures start at 19:00
+\* — all lectures start at 19:00.\
 \*\* — slides, videos and homeworks will be published and available online after lectures.\
 \*\*\* — we will invite a guest speaker not from our community or even city.\
 \*\*\*\* — reviewing graduation tasks, summarizing course.
