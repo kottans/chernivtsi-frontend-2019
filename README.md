@@ -26,21 +26,21 @@ Rivnens'ka St, 16, Chernivtsi, 58000][location-url]
 
 ## 📚 Lectrures
 
-|  📅 Date\*  | 📝 Topic                  | 👨‍🏫 Lecturer                                     | 🖥 Slides\*\* | 📹 Video\*\* | 🏡 Homework\*\* |
-| :---------: | :------------------------ | :---------------------------------------------- | :----------: | :----------: | :-------------: |
-| 15 Apr 2019 | **Introduction**          | Denys Dovhan <br /> **[@denysdovhan]**          |      —       |      —       |        —        |
-| 17 Apr 2019 | **HTML & CSS**            | Max Kharena <br /> **[@maxkharena]**            |      —       |      —       |        —        |
-| 19 Apr 2019 | **ES6 Basics**            | Denis Zavgorodny <br /> **[@denis-zavgorodny]** |      —       |      —       |        —        |
-| 22 Apr 2019 | **ES6 Continued**         | Andrii Komarnitskyi <br /> **[@komarnitskyi]**  |      —       |      —       |        —        |
-| 24 Apr 2019 | **Browser APIs Practics** | Denis Zavgorodny <br /> **[@denis-zavgorodny]** |      —       |      —       |        —        |
-| 26 Apr 2019 | **HTTP & client-server**  | Andrii Komarnitskyi <br /> **[@komarnitskyi]**  |      —       |      —       |        —        |
-| 6 May 2019  | **Patterns & FP intro**   | Denis Zavgorodny <br /> **[@denis-zavgorodny]** |      —       |      —       |        —        |
-| 8 May 2019  | **React Basics**          | Andrii Voitsekhivskyi <br /> **[@KinjinZzz]**   |      —       |      —       |        —        |
-| 13 May 2019 | **React Continued Pt. 1** | Denys Dovhan <br /> **[@denysdovhan]**          |      —       |      —       |        —        |
-| 15 May 2019 | **React Continued Pt. 2** | Denys Dovhan <br /> **[@denysdovhan]**          |      —       |      —       |        —        |
-| 17 May 2019 | **React Continued Pt. 3** | Andrii Kostetsky <br /> **[@kostyandrew]**      |      —       |      —       |        —        |
-| 20 May 2019 | **Outro**                 | Guest star ⭐️                                  |      —       |      —       |        —        |
-|      —      | **Graduation**            | —\*\*\*\*                                       |      —       |      —       |        —        |
+|  📅 Date\*  | 📝 Topic                  | 👨‍🏫 Lecturer                                     |                               🖥 Slides\*\*                                | 📹 Video\*\* | 🏡 Homework\*\* |
+| :---------: | :------------------------ | :---------------------------------------------- | :-----------------------------------------------------------------------: | :----------: | :-------------: |
+| 15 Apr 2019 | **Introduction**          | Denys Dovhan <br /> **[@denysdovhan]**          | [Link 🔗](https://denysdovhan.com/slides-kottans-chernivtsi-introduction) |      —       |        —        |
+| 17 Apr 2019 | **HTML & CSS**            | Max Kharena <br /> **[@maxkharena]**            |                                     —                                     |      —       |        —        |
+| 19 Apr 2019 | **ES6 Basics**            | Denis Zavgorodny <br /> **[@denis-zavgorodny]** |                                     —                                     |      —       |        —        |
+| 22 Apr 2019 | **ES6 Continued**         | Andrii Komarnitskyi <br /> **[@komarnitskyi]**  |                                     —                                     |      —       |        —        |
+| 24 Apr 2019 | **Browser APIs Practics** | Denis Zavgorodny <br /> **[@denis-zavgorodny]** |                                     —                                     |      —       |        —        |
+| 26 Apr 2019 | **HTTP & client-server**  | Andrii Komarnitskyi <br /> **[@komarnitskyi]**  |                                     —                                     |      —       |        —        |
+| 6 May 2019  | **Patterns & FP intro**   | Denis Zavgorodny <br /> **[@denis-zavgorodny]** |                                     —                                     |      —       |        —        |
+| 8 May 2019  | **React Basics**          | Andrii Voitsekhivskyi <br /> **[@KinjinZzz]**   |                                     —                                     |      —       |        —        |
+| 13 May 2019 | **React Continued Pt. 1** | Denys Dovhan <br /> **[@denysdovhan]**          |                                     —                                     |      —       |        —        |
+| 15 May 2019 | **React Continued Pt. 2** | Denys Dovhan <br /> **[@denysdovhan]**          |                                     —                                     |      —       |        —        |
+| 17 May 2019 | **React Continued Pt. 3** | Andrii Kostetsky <br /> **[@kostyandrew]**      |                                     —                                     |      —       |        —        |
+| 20 May 2019 | **Outro**                 | Guest star ⭐️                                  |                                     —                                     |      —       |        —        |
+|      —      | **Graduation**            | —\*\*\*\*                                       |                                     —                                     |      —       |        —        |
 
 <!--  -->
 
