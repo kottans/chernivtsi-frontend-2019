@@ -1,0 +1,66 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  box-sizing: borer-box;
+  font-family: Georgia;
+  font-size: 0px; }
+
+img {
+  width: 100%;
+  height: auto; }
+
+
+  .ny-container{
+  	padding:0 20px;
+  	max-width: 800px;
+  	width: 90%;
+  	margin:0 auto;
+  	min-height: 800px;
+  }
+
+  h1{ 
+  	text-transform: uppercase; 
+    color:#444444;
+    font-size: 56px;
+  }
+
+  span{
+  	font-size: 20px;
+  	color:#747474;
+  }
+
+  .temperature,.temperature-characters{
+  	vertical-align: top;
+  	display: inline-flex;
+  	  flex-direction: row;
+  	   flex-wrap: nowrap 
+  }
+  ul{
+  	width: 216px;
+  	font-size: 20px;
+  	color:#a4a4a4;
+  }
+  li{
+  	list-style: none;
+  }
+
+  img{
+  	width: 119px;
+  	height: 75px;
+  }
+
+  .temperature-value{
+  	width: 66px;
+  	height: 48px;
+  	color:#666666;
+  	font-size: 48px;
+  }
+  .temperature-signchar{
+  	width: 21px;
+  	height: 21px;
+  	color:#666666;
+  	font-size: 21px;
+  }
