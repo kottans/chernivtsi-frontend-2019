@@ -82,6 +82,7 @@ h1{
 	border-top:solid 1px #c7c7c7;
 }
 
+
 .f-img{
 	max-width: 200px;
 	max-height: 200px;
@@ -91,6 +92,7 @@ h1{
 
 
 .f-day{
+	flex-basis: 25%;
 	color:#444444;
 	font-size: 3vw;
 }
