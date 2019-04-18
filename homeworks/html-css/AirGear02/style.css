@@ -75,10 +75,12 @@ img{
 	padding: 0;
 	margin: auto 0;
 }
-.week div:last-child{
-	border-bottom: 2px solid #C9C9C9;
-}
 .week div .week-degree{
 	width: 70px;
 }
+
+.week div:last-child{
+	border-bottom: 2px solid #C9C9C9;
+}
+
 
