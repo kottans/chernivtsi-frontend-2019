@@ -19,3 +19,83 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+img{
+	width: 100%;
+	height: auto;
+}
+
+.ny_container{
+	max-width: 800px;
+	width: 90%;
+	margin:0 auto;
+	border:solid 1px;
+}
+
+h1{
+	color:#444444;
+	font-size: 5vw;
+	text-transform: uppercase;
+}
+
+.t-date{
+	color:#5b5b5b;
+	font-size: 2vw;
+	line-height: 1.5;
+}
+
+.t-container{display: flex;}
+.temperature{
+	width: 60%;
+}
+
+.temperature img{
+	max-width: 400px;
+	max-height: 400px;
+	width: 29%;
+}
+
+.temperature .t-value{
+	color:#5b5b5b;
+	font-size:5vw;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.temperature .t-type{
+	color:#5b5b5b;
+	font-size:2vw;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.t-characters li{
+	color:#898989;
+	list-style: none;
+	line-height: 1.5;
+	font-size: 2vw;
+}
+
+.f-container{
+	display: flex;
+	justify-content:  space-around;
+	align-items: center;
+	border-top:solid 1px #c7c7c7;
+}
+
+.f-img{
+	max-width: 200px;
+	max-height: 200px;
+	width: 15%;
+}
+
+
+
+.f-day{
+	color:#444444;
+	font-size: 3vw;
+}
+
+.f-below{
+	color:#838383;
+}
+
