@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    color: #444444;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+span {
+    font-size: 1.5rem;
+    color: #616161;
+}
+
+.container {
+    margin: 0 25%;
+}
+
+.main-info {
+    padding: 0 20px 30px 20px;
+    border-bottom: 2px solid #c7c7c7;
+}
+
+.city {
+    font-size: 5rem;
+    margin: 10px 0;
+    font-weight: 400;
+}
+
+.date {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.weather, .d-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.weather span {
+    font-size: 4rem;
+    margin-left: 10px;
+}
+
+.weather span sup {
+    position: relative;
+    top: -6px;
+    font-size: 1.5rem;
+    color: #8C8C8C;
+}
+
+.weather-info {
+    padding-left: 10%;
+}
+
+.weather-info > span {
+    display: inline-block;
+    color: #8C8C8C;
+    margin: 2px;
+}
+
+.weather-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #c7c7c7;
+    padding: 20px;
+}
+
+.weather-list h3 {
+    font-size: 1.5rem;
+    width: 25%;
+}
+
+.light-gray {
+    color: #8C8C8C;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .weather-list h3 {
+        text-align: center;
+        width: 100%;
+    }
+}
