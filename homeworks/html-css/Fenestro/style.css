@@ -15,7 +15,7 @@
     font-size: 4em;
 }
 
-.todayDate {
+.today-date {
     font-size: 1.25em;
 }
 
@@ -26,11 +26,11 @@
     background-color: #f5f6fa;
 }
 
-.content .weatherImg img {
+.content .weather-img img {
     width: 130px;
 }
 
-.content .weatherImg {
+.content .weather-img {
     /* flex-grow: 1; */
 }
 
@@ -59,39 +59,39 @@
 
 /* ------------------Each day container------------------ */
 
-.day {
+.days__item {
     border-bottom: 1px #dcdde1 solid;
     display: flex;
     padding: 0 10px;
     align-items: center;
 }
 
-.day .weatherImg img {
+.days__item .days__item__img img {
     width: 125px;
 }
 
-.day .weekDay {
+.days__item .days__item__week-day {
     width: 7em;
     font-weight: 800;
     font-size: 1.7em;
 }
 
-.day .degree {
+.days__item .days__item__degree {
     flex-grow: 1;
     text-indent: 50px;
     flex-direction: column;
     font-size: 1.5em;
 }
 
-.day .degree .botDeg {
+.days__item .days__item__degree .bot-deg {
     color: #596275;
 }
 
-.day .details{
+.days__item .details {
     flex-grow: 1;
 }
 
-.day .details .item {
+.days__item .details .item {
     color: #596275;
     font-size: 1.5em;
 }
