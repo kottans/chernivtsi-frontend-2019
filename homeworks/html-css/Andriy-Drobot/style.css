@@ -1,0 +1,86 @@
+body{
+	font-family: 'Signika', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+.content h1{
+	font-size: 3em;
+	margin:0;
+}
+.content h3{
+	font-weight: normal;
+	margin-bottom: 0;
+	margin-top: 5px;
+	color: grey;
+}
+.container-top{
+	display: flex;
+	margin-bottom: 5px;
+}
+.info-top{
+	display:flex;
+}
+.info-top .degree{
+	font-weight: bold;
+	font-size: 3em;
+	vertical-align: text-top;
+	margin: 0;
+	margin-top: 15px;
+}
+.info-top .degree .farengeit{
+	font-weight: normal;
+	font-size: 0.5em;
+	color: grey;
+	display: inline-block;
+	vertical-align: text-top;
+	margin-top: 4px;
+	margin-left: 2px;
+
+}
+.container-top .details{
+	margin-left: 60px;
+}
+.container-top .details p{
+	margin: 0px;
+	margin-top: 5px;
+	color: grey;
+}
+.num{
+	color: black;
+}
+img{
+	width: 100px;
+	height: 100px;
+}
+
+.week div{
+	display: flex;
+	border-top: 2px solid #C9C9C9;
+	color: grey;
+	width: 430px;
+}
+.week div img{
+	width: 75px;
+	height: 75px;
+	margin-right: 40px;
+}
+.week div .day{
+	font-weight: bold;
+	margin:auto 0;
+	width: 140px;
+	padding: 0;
+	color: black;
+} 
+.week div .pollen{
+	padding: 0;
+	margin: auto 0;
+}
+.week div .week-degree{
+	width: 70px;
+}
+
+.week div:last-child{
+	border-bottom: 2px solid #C9C9C9;
+}
+
+
