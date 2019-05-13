@@ -1,0 +1,17 @@
+#root{
+  padding: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+.lectures{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lectures .lecture-data{
+  margin: 0 10px;
+}
+
+.hidden{
+  display: none;
+}
