@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.weather-container h1, .weather-container h3 {
+    margin: 0;
+    font-weight: inherit;
+}
+
+.weather-container {
+    background-color: white;
+    width: 94vw;
+}
+
+.today-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.city-name {
+    font-size: 5vw;
+    color: #444444;
+}
+
+.today-info {
+    font-size: 3vw;
+    color: #838383;
+}
+
+.today-weather-info {
+    display: flex;
+    align-items: center;
+}
+
+.sky-icon {
+    margin: 0 1vw 0 1vw;
+}
+
+.main-sky-icon {
+    width: 18vw;
+}
+
+.degrees {
+    display: flex;
+}
+
+.degrees-sign {
+    font-size: 3.2vw;
+    color: #838383;
+    margin: 0.5vh auto auto auto
+}
+
+.number {
+    margin: 0;
+    font-weight: inherit;
+    font-size: 8vw;
+    color: #656565;
+}
+
+.extra-weather-info {
+    margin-left: 20vw;
+    font-size: 3.2vw;
+    color: #969696;
+}
+
+.weather-container span {
+    font-size: 3.2vw;
+    color: #838383;
+    margin: 0.5vh auto auto auto;
+}
+
+.week-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 3.2vw;
+}
+
+.day-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.1vh solid black;
+}
+
+.day-week {
+    color: #444444;
+    font-weight: bold;
+    width: 20vw;
+}
+
+.max-degrees {
+    color: #444444;
+}
+
+.min-degrees {
+    color: #838383;
+}
+
+.pollen {
+    color: #969696;
+}
+
+.weather-container img {
+    width: 14vw;
+}
