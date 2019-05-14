@@ -3,7 +3,6 @@ import './App.css';
 import LecturesList from './lectures';
 import axios from "axios";
 
-
 class App extends React.Component {
     state = {
         lectures: [],
@@ -11,10 +10,7 @@ class App extends React.Component {
         error: null
     };
     getData = () => {
-        const ax = axios.create({
-            baseURL: 'http://localhost:3000'
-        });
-        ax.get('data.json')
+        axios.get('https://raw.githubusercontent.com/kottans/chernivtsi-frontend-2019/master/homeworks/react-basics/data.json')
             .then(response => {
                     this.setState({lectures: response.data.lectures, isLoading: false});
                 }
@@ -30,9 +26,9 @@ class App extends React.Component {
         const {lectures, isLoading, error} = this.state;
         return (
             <div>
-            <LecturesList lectures={lectures} isLoading={isLoading} error={error}/>
-        </div>
-    )
+                <LecturesList lectures={lectures} isLoading={isLoading} error={error}/>
+            </div>
+        )
     }
 }
 
