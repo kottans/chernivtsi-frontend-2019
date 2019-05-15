@@ -9,10 +9,9 @@ class LectureInfo extends React.Component {
         this.state = {
             isOpen: false
         };
-        this.toggle = this.toggle.bind(this);
     };
 
-    toggle() {
+    toggle = () => {
         this.setState({
             isOpen: !this.state.isOpen
         });
@@ -35,3 +34,4 @@ class LectureInfo extends React.Component {
     }
 };
 export default LectureInfo;
+
