@@ -1,13 +1,14 @@
 import React, {Component} from "react";
 import axios from "axios";
 import './lectures-list.css';
+import LectureListItem from '../lecture-list-item';
 
 
 export default class LecturesList extends Component{
 
         state = {
             list: [],
-            hidden: false
+            hidden: false,
         };
 
         onlabelClick = () => {
@@ -21,46 +22,29 @@ export default class LecturesList extends Component{
         componentDidMount()
         {
             axios.get(`https://raw.githubusercontent.com/kottans/chernivtsi-frontend-2019/master/homeworks/react-basics/data.json`)
-                .then(res => {
-                    const list = res.data.lectures;
+                .then(response => {
+                    const list = response.data.lectures;
                     this.setState({list});
                 })
+                 .catch(error => {
+                     console.error(error);
+                 });
         }
 
         render()
         {
-            const {hidden} = this.state;
-
-            let classNams = "lecture-list ";
-            if (hidden) {
-                classNams += ' hidden'
-            }
-
-            const listLectrures = this.state.list.map((item) => {
-                const {date, title, lecturer, link} = item;
-
-                return (
-                    <tr key={date}>
-                        <td>{date}</td>
-                        <td>{title}</td>
-                        <td>{lecturer}</td>
-                        <td>{link}</td>
-                    </tr>
-                );
-            });
-
             return (
-                <>
-                    <table className= 'table'>
+                <table className= 'table'>
                         <caption>
                            <h2>
                                Lectures
                            </h2>
-                            <button onClick={this.onlabelClick}>
+                            <button
+                                onClick={this.onlabelClick}>
                                 click
                             </button>
                         </caption>
-                        <tbody className={classNams}>
+                    {this.state.hidden || <tbody className="lecture-list">
                         <tr>
                             <th>
                                 Date
@@ -75,10 +59,20 @@ export default class LecturesList extends Component{
                                 Link
                             </th>
                         </tr>
-                            {listLectrures}
-                        </tbody>
-                    </table>
-                </>
+                            {this.state.list.map((item) => {
+                                const {date, title, lecturer, link} = item;
+                                return (
+                                    <LectureListItem
+                                        key = {date}
+                                        date={date}
+                                        title={title}
+                                        lecturer={lecturer}
+                                        link={link}>
+                                    </LectureListItem>
+                                );
+                            })}
+                    </tbody>}
+                </table>
             )
         }
 

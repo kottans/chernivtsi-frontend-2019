@@ -1,9 +1,7 @@
 .lecture-list{
-    display: block;
+
 }
-.hidden{
-    display: none;
-}
+
 .table{
     margin: 20px auto;
     text-align: left;
