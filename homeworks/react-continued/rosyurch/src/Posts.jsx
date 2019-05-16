@@ -1,5 +1,6 @@
 import React from 'react';
 import Post from './Post.jsx'
+import PropTypes from 'prop-types';
 import {withRouter, Link} from 'react-router-dom';
 
 class Posts extends React.Component {
@@ -24,13 +25,19 @@ class Posts extends React.Component {
     }
 
     render () {
-        return (
+        return ( 
                 this.state.posts.map(post => (
                     <Link key={post.id} to={`/post/${post.id}`} style={{textDecoration: 'none'}}>    
-                        <Post title={post.title} /*body= {post.body}*/ {...this.props} /> 
+                        <Post title={post.title} /> 
                     </Link>
-                ))    
+                ))   
             )}
+}
+
+Link.propTypes = {
+    style: PropTypes.shape({
+        textDecoration: PropTypes.string
+    })
 }
 
 export default withRouter(Posts);

@@ -11,12 +11,8 @@ function Post (props) {
 }
 
 Post.propTypes = {
-    props: PropTypes.shape({
-        userId: PropTypes.number,
-        id: PropTypes.number.isRequired,
-        title: PropTypes.string.isRequired,
-        body: PropTypes.string
-    })
+    title: PropTypes.string,
+    body: PropTypes.string
 }
 
 

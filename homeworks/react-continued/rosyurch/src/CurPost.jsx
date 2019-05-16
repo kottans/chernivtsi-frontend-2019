@@ -1,5 +1,6 @@
 import React from 'react';
 import Post from './Post';
+import PropTypes from 'prop-types';
 
 class CurPost extends React.Component {
     constructor (props) {
@@ -17,7 +18,6 @@ class CurPost extends React.Component {
                 this.setState({
                     post: singlePost[0]         //filter returns an array of length 1
                 });
-               // console.log(this.state.post)
             }) 
             .catch(err => console.log(err));
     }
@@ -30,9 +30,13 @@ class CurPost extends React.Component {
         const { title, body } = this.state.post;
         return (
             <Post title={title} body={body}/>
-            //<div></div>
         )
     }
+}
+
+Post.propTypes = {
+    title: PropTypes.string,
+    body: PropTypes.string
 }
 
 export default CurPost;
