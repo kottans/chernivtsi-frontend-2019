@@ -1,20 +1,13 @@
-import React, {Component} from "react";
+import React from "react";
 
-import "./lecture-list-item.css"
+export default function LectureListItem ({date, title, lecturer, link}){
 
-
-class LectureListItem extends Component{
-
-    render(){
         return(
-            <tr key={this.props.date}>
-                <td>{this.props.date}</td>
-                <td>{this.props.title}</td>
-                <td>{this.props.lecturer}</td>
-                <td>{this.props.link}</td>
+            <tr key={date}>
+                <td>{date}</td>
+                <td>{title}</td>
+                <td>{lecturer}</td>
+                <td>{link}</td>
             </tr>
         )
-    }
-
 }
-export default LectureListItem;
