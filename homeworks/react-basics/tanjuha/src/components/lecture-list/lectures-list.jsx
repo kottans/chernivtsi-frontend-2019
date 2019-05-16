@@ -1,8 +1,7 @@
 import React, {Component} from "react";
 import axios from "axios";
-import './lectures-list.css';
 import LectureListItem from '../lecture-list-item';
-
+import "./lectures-list.css"
 
 export default class LecturesList extends Component{
 
@@ -60,10 +59,10 @@ export default class LecturesList extends Component{
                             </th>
                         </tr>
                             {this.state.list.map((item) => {
-                                const {date, title, lecturer, link} = item;
+                                const {date, title, lecturer, link}=item;
                                 return (
                                     <LectureListItem
-                                        key = {date}
+                                        key={date}
                                         date={date}
                                         title={title}
                                         lecturer={lecturer}
