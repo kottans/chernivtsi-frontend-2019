@@ -30,14 +30,14 @@ class App extends React.Component {
     const { isLoading, lectures, error } = this.state;
     return (
       <>
-        <h1> 😺 Kottans Chernivtsi Front-end course scedule 😺</h1>
+        <h1> <span role="img" aria-label="cat-emoji"> 😺 </span> Kottans Chernivtsi Front-end course scedule <span role="img" aria-label="cat-emoji"> 😺 </span></h1>
         <div>
           {error ? <p>{error.message}</p> : null}
           {!isLoading ? (
             lectures.map(lecture => {
               const { title, date, lecturer, link } = lecture;
               return (
-               <Item title={title} date={date} lecturer={lecturer} link={link}></Item>
+               <Item title={title} date={date} lecturer={lecturer} link={link} key={title}></Item>
               );
             })
           ) : (
