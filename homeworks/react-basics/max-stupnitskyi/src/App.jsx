@@ -30,7 +30,7 @@ class App extends React.Component {
     const { isLoading, lectures, error } = this.state;
     return (
       <>
-        <h1> <span role="img" aria-label="cat-emoji"> 😺 </span> Kottans Chernivtsi Front-end course scedule <span role="img" aria-label="cat-emoji"> 😺 </span></h1>
+        <h1> <span role="img" aria-label="emoji-cat"> 😺 </span> Kottans Chernivtsi Front-end course scedule <span role="img" aria-label="emoji-cat"> 😺 </span></h1>
         <div>
           {error ? <p>{error.message}</p> : null}
           {!isLoading ? (
