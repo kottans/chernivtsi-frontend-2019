@@ -10,8 +10,8 @@ function Lecture({match}) {
     };
 
     useEffect(() => {
-        console.log(match);
-        getItem();
+        getItem().then(console.log('success'))
+            .catch(error=>console.log(error));
     }, []);
 
     const [item, setItem] = useState([]);

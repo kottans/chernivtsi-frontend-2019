@@ -7,7 +7,8 @@ import '../App.css';
 function LecturesList() {
 
     useEffect(() => {
-        getItems();
+        getItems().then(console.log('success'))
+            .catch(error=>console.log(error));
     }, []);
 
     const [state, setItems] = useState([]);
