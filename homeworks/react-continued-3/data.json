@@ -1,0 +1,75 @@
+{
+  "lectures": [
+    {
+      "date": "15 Apr 2019",
+      "title": "Introduction",
+      "lecturer": "Denys Dovhan",
+      "link": "https://github.com/denysdovhan"
+    },
+    {
+      "date": "17 Apr 2019",
+      "title": "HTML & CSS",
+      "lecturer": "Max Kharena",
+      "link": "https://github.com/maxkharena"
+    },
+    {
+      "date": "19 Apr 2019",
+      "title": "ES6 Basics",
+      "lecturer": "Denis Zavgorodny",
+      "link": "https://github.com/denis-zavgorodny"
+    },
+    {
+      "date": "22 Apr 2019",
+      "title": "Browser APIs Practics",
+      "lecturer": "Denis Zavgorodny",
+      "link": "https://github.com/denis-zavgorodny"
+    },
+    {
+      "date": "24 Apr 2019",
+      "title": "ES6 Continued",
+      "lecturer": "Andrii Komarnitskyi",
+      "link": "https://github.com/komarnitskyi"
+    },
+    {
+      "date": "26 Apr 2019",
+      "title": "HTTP & client-server",
+      "lecturer": "Andrii Komarnitskyi",
+      "link": "https://github.com/komarnitskyi"
+    },
+    {
+      "date": "6 May 2019",
+      "title": "Patterns & FP intro",
+      "lecturer": "Denis Zavgorodny",
+      "link": "https://github.com/denis-zavgorodny"
+    },
+    {
+      "date": "8 May 2019",
+      "title": "React Basics",
+      "lecturer": "Andrii Voitsekhivskyi",
+      "link": "https://github.com/KinjinZzz"
+    },
+    {
+      "date": "13 May 2019",
+      "title": "React Continued Pt. 1",
+      "lecturer": "Denys Dovhan",
+      "link": "https://github.com/denysdovhan"
+    },
+    {
+      "date": "15 May 2019",
+      "title": "React Continued Pt. 2",
+      "lecturer": "Denys Dovhan",
+      "link": "https://github.com/denysdovhan"
+    },
+    {
+      "date": "17 May 2019",
+      "title": "React Continued Pt. 3",
+      "lecturer": "Andrii Kostetskyi",
+      "link": "https://github.com/kostyandrew"
+    },
+    {
+      "date": "20 May 2019",
+      "title": "Outro",
+      "lecturer": "Guest star ⭐️"
+    }
+  ]
+}
