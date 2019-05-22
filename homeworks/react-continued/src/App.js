@@ -3,7 +3,7 @@ import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Scedule from './components/scedule/scedule.jsx';
 import Home from './components/home.jsx';
-import Mentors from './components/mentors/mentors.jsx';
+import { CatalogView, ProductView } from './components/mentors/mentors.jsx';
 import logo from './img/logo.png'
 
 function App() {
@@ -28,7 +28,8 @@ function App() {
 
       <Route path="/" exact component={Home} />
       <Route path="/scedule/" component={Scedule} />
-      <Route path="/mentors/" component={Mentors} />
+      <Route path="/mentors/" component={CatalogView} />
+      <Route path="/mentors/:name" component={ProductView} />
     </Router>
   )
 }
