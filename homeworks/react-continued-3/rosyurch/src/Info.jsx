@@ -3,9 +3,12 @@ import React, { useState } from 'react'
 function Info (props) {
     const [isOpen, setIsOpen] = useState(false);
 
-    function toggle () {
-        setIsOpen(!isOpen);
-    }
+    // function toggle () {
+    //     setIsOpen(!isOpen);
+    // }
+
+    const toggle = () => setIsOpen(currState => !currState);
+    
 
     return (
         <div>
