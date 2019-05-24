@@ -5,7 +5,8 @@ import './lectures-list.css';
 export default function LecturesList() {
 
     const [data, setData] = useState([]);
-    const[hidden, setHidden] = useState(false);
+
+    const[isHidden, setHidden] = useState(false);
 
     useEffect(() =>{
         axios
@@ -23,7 +24,7 @@ export default function LecturesList() {
                         Lectures
                     </h2>
                     <button
-                        onClick={() => setHidden(!hidden)}>
+                        onClick={() => setHidden( isHidden => !isHidden)}>
                         click
                     </button>
                 </caption>
@@ -43,7 +44,7 @@ export default function LecturesList() {
                     </th>
                 </tr>
                 {
-                    hidden ? <tr><td colSpan='4' align='center'>...</td></tr> :
+                    isHidden ? <tr><td colSpan='4' align='center'>...</td></tr> :
                         (data.map(item =>(
                         <tr key={item.date}>
                             <td>
