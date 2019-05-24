@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route, NavLink} from 'react-router-dom';
 import Home from '../Home/Home.jsx';
 import About from '../About/About.jsx';
 import Users from '../Users/Users.jsx';
-import CurUser from '../CurUser/CurUser';
 
 function RouterComponent() {
     return (
@@ -18,7 +17,7 @@ function RouterComponent() {
                 <Route exact path='/' component={Home}/>
                 <Route exact path='/users' component={Users}/>
                 <Route path='/about' component={About} />
-                <Route exact path='/users/:id' component={CurUser}/>
+                <Route path='/users/:id' component={Users}/>
             </div>
         </Router>
     )
