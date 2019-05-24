@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 function User (props) {
     return (
@@ -10,5 +11,11 @@ function User (props) {
     )
 }
 
-export default User;
+User.propTypes = {
+    id: PropTypes.number.isRequired,
+    name: PropTypes.string.isRequired,
+    email: PropTypes.string.isRequired,
+    job: PropTypes.string
+};
 
+export default User;
