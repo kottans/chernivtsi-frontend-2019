@@ -12,7 +12,6 @@ function LectureDetails({date, title, lecturer, link}) {
 
     const [isOpened, setState] = useState(false);
 
-
     return (
         <div>
             <h2 onClick={() => setState(!isOpened)}>Date: {date}</h2>
