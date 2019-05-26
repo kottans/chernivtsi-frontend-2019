@@ -5,8 +5,7 @@ import './lectures-list.css';
 export default function LecturesList() {
 
     const [data, setData] = useState([]);
-
-    const[isHidden, setHidden] = useState(false);
+    const [isHidden, setHidden] = useState(false);
 
     useEffect(() =>{
         axios
