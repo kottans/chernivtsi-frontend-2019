@@ -1,5 +1,5 @@
 import React from 'react';
-import LectureDetails from './lecturesDetails';
+import LectureDetails from './LecturesDetails';
 import PropTypes from 'prop-types';
 
 const LecturesList = ({lectures, isLoading, error}) => {

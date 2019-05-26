@@ -1,5 +1,4 @@
 import React from 'react';
-import "./App.css";
 import {useState} from 'react';
 import PropTypes from 'prop-types';
 
@@ -12,6 +11,7 @@ function LectureDetails({date, title, lecturer, link}) {
     };
 
     const [isOpened, setState] = useState(false);
+
 
     return (
         <div>

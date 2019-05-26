@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import LecturesList from "./lectures";
+import LecturesList from "./Lectures";
 import useGetLecturesList from "./hook"
 
 function App() {
