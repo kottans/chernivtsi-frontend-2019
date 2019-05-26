@@ -1,0 +1,45 @@
+.App {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #8b8b8b;
+    color: #f5f6fa;
+}
+
+.nav-links {
+    font-weight: bold;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.links {
+    color: lightgreen;
+}
+
+.links:hover {
+    color: #282c34;
+}
+
+.links:visited {
+    color: forestgreen;
+}
+
+.about {
+    width: 600px;
+    margin: 50px auto;
+    text-align: justify;
+}
+
+.li {
+    font-size: 18px;
+    color: #596275;
+    margin-bottom: 20px;
+}
