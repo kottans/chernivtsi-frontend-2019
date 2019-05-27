@@ -5,7 +5,8 @@ import './App.css';
 import Item from './components/item.jsx';
 
 function App() {
-  const [lectures, setLectures, error, setError] = useState([]);
+  const [lectures, setLectures] = useState([]);
+  const [error, setError] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
   function fetchLectures() {
