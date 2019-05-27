@@ -1,0 +1,83 @@
+.mentors{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.mentor{
+    width: 33%;
+    padding: 0 20px;
+    flex: 1 1 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.mentor__photo{
+    overflow: hidden;
+    border-radius: 50%;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.mentors__links{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.mentors__link{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #000;
+	z-index: 2;
+	transition: all 0.2s ease;
+	position: relative;
+	padding: 8px 0 5px;
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.mentors__link:before, .mentors__link:after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    transition: all 0.3s ease;
+    transform: scale(0.85);
+}
+
+.mentors__link:hover:before{
+    top: 0;
+    transform: scale(1);
+}
+.mentors__link:hover:after{
+    transform: scale(1);
+}
+
+.mentor__photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.mentor__name{
+    font-weight: bold;
+    margin: 15px 0 10px;
+}
+
+.mentor__email{
+    color: #000;
+    transition: all 0.2s ease-in-out;
+}
+
+.mentor__email:hover{
+    color: red;
+}

@@ -1,0 +1,40 @@
+{
+  "mentors": [
+    {
+      "name": "Denys Dovhan",
+      "email": "denysdovhan@gmail.com",
+      "photo": "https://avatars2.githubusercontent.com/u/3459374?s=400&v=4"
+    },
+    
+    {
+      "name": "Max Kharena",
+      "email": "max.harena@gmail.com",
+      "photo": "https://avatars1.githubusercontent.com/u/19487105?s=400&v=4"
+    },
+    
+    {
+      "name": "Denis Zavgorodny",
+      "email": "denis.zavgorodny@gmail.com",
+      "photo": "https://avatars0.githubusercontent.com/u/1618404?s=400&v=4"
+    },
+    
+    {
+      "name": "Andrew Komarnitskyi",
+      "email": "ticapac@gmail.com",
+      "photo": "https://avatars0.githubusercontent.com/u/3384599?s=400&v=4"
+    },
+    
+    {
+      "name": "Andrii Voitsekhivskyi",
+      "email": "vojander@gmail.com",
+      "photo": "https://avatars1.githubusercontent.com/u/23338100?s=400&v=4"
+    },
+    
+    {
+      "name": "Andrii Kostetskyi",
+      "email": "kostyandrew@gmail.com",
+      "photo": "https://avatars1.githubusercontent.com/u/3501133?s=400&v=4"
+    }
+    
+  ]
+}
