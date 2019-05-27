@@ -10,11 +10,11 @@ function LectureDetails({date, title, lecturer, link}) {
         link: PropTypes.string
     };
 
-    const [isOpened, setState] = useState(false);
+    const [isOpened, setOpen] = useState(false);
 
     return (
         <div>
-            <h2 onClick={() => setState(!isOpened)}>Date: {date}</h2>
+            <h2 onClick={() => setOpen((isOpened) => !isOpened)}>Date: {date}</h2>
             {isOpened && <div>
                 <p><span>Title:</span> {title}</p>
                 <p><span>Lecturer:</span> {lecturer}</p>
