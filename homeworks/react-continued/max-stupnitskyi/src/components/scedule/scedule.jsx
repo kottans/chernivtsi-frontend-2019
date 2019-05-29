@@ -1,6 +1,8 @@
 import React from 'react';
 import Axios from 'axios';
 import SceduleItem from './scedule_item.jsx';
+import PropTypes from 'prop-types';
+
 
 class Scedule extends React.Component {
     state = {
@@ -47,6 +49,13 @@ class Scedule extends React.Component {
             </>
         );
     }
+}
+
+Scedule.propTypes = {
+    title: PropTypes.string,
+    date: PropTypes.string,
+    lecturer: PropTypes.string,
+    link: PropTypes.string
 }
 
 export default Scedule

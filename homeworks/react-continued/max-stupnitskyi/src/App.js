@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Scedule from './components/scedule/scedule.jsx';
 import Home from './components/home.jsx';
 import { CatalogView, ProductView } from './components/mentors/mentors.jsx';
-import logo from './img/logo.png'
+import logo from './img/logo.png';
 
 function App() {
   return (
