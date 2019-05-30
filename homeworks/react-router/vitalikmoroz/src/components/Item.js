@@ -19,7 +19,6 @@ export default class Item extends React.Component {
         this.setState({
             item : arr
         })
-        console.log(this.state.item)
     }
 
     render() {

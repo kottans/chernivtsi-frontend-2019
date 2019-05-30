@@ -8,13 +8,19 @@ import Items from './components/Items';
 import Item from './components/Item'
 
 function App() {
+    var list = {
+        main : "Main",
+        about : "About",
+        items : "Items",
+    }
+
     return (
         <Router>
         <div className="container">
-            <Header/>
+            <Header list={list}/>
             <div className="content">
                 <Route path="/" exact component={Main}/>
-                <Route path="/about" exact component={About}/>
+                <Route path="/about" component={About}/>
                 <Route path="/items" exact component={Items}/>
                 <Route path="/items/:name" component={Item}/>
             </div>
