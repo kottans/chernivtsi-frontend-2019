@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  margin-bottom: 10px;
+  background-color: #30336b;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: row;
+
+}
+
+nav ul li {
+  list-style: none;
+  padding: 20px 30px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.content {
+  padding: 10px;
+}
+
+.items {
+  text-decoration: none;
+  color: #130f40;
+}
+
+.item h3,
+.item a {
+  color: #130f40;
+}
