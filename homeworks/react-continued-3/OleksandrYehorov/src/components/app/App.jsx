@@ -8,7 +8,7 @@ function App() {
 
     const [data, setData] = useState([]);
 
-    function getLectures() {
+    const getLectures = () => {
         axios
             .get('https://raw.githubusercontent.com/kottans/chernivtsi-frontend-2019/master/homeworks/react-basics/data.json')
             .then(response => {
