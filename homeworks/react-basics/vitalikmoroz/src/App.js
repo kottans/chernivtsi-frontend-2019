@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Axios from 'axios';
+import Lectures from './components/lecture';
 import './App.css';
 
 class App extends Component {
@@ -22,29 +23,13 @@ class App extends Component {
 		}))
 	}
 
-	renderLectures(lectures) {
-		return lectures.map(item => {
-		const {date, title, lecturer, link} = item;
-			return(
-				<div className="lecture" key={title}>
-					<div className="title">{title}</div>
-					<a className="lecturer" href={link}>{lecturer}</a>
-					<div className="date">{date}</div>
-				</div>
-			)
-		})
-	}
-
 	render() {
 		const {error, lectures} = this.state;
 		if (error) return <div>Error...</div>
-
-		const items = this.renderLectures(lectures);
-
 		return (
 			<div className="container">
 				<h2 className="pageTitle">Kottans Chernivtsi Frontend Course 2019</h2>
-				{items}
+				<Lectures lectures={lectures}/>
 			</div>
 		)
 	}
