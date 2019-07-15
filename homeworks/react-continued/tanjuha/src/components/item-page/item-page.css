@@ -1,0 +1,16 @@
+.item-page ul{
+    padding: 0;
+    margin: 20px;
+
+}
+.item-page li{
+    display: inline;
+    margin: 0 20px;
+}
+
+.item img{
+    height: 200px;
+}
+.item h4, .item-page a{
+    text-transform: uppercase;
+}
