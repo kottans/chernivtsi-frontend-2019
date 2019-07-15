@@ -1,0 +1,20 @@
+.wrapper {
+  margin: 30px auto;
+  font-family: "Book Antiqua", sans-serif;
+  font-size: 20px;
+  list-style: none;
+}
+
+.additional-info {
+  display: none;
+  font-size: 16px;
+  color: grey;
+}
+
+.additional-info.active {
+  display: block;
+}
+
+.title {
+  cursor: pointer;
+}
